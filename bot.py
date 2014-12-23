@@ -18,6 +18,7 @@ class Bot(object):
 
 	def dayScore(self):
 		pass
+	
 
 
 ### Trade Execution ###
@@ -31,10 +32,6 @@ class Bot(object):
 
 	def executeTransaction(self, trans):
 		self.wallet.add(trans.value())
-
-
-
-
 
 
 

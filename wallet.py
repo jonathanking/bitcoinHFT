@@ -1,5 +1,6 @@
 class Wallet(object):
 	"""A virtual bitcoin wallet, primarily for testing purposes.
+	
 	>>> c = Wallet(10)
 	>>> c.add(400)
 	>>> c.getBalance()

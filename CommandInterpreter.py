@@ -1,5 +1,6 @@
 import cmd
 import sys
+import bot
 
 from blockchain import exchangerates
 
