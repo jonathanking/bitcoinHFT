@@ -39,10 +39,8 @@ class CommandInterpreter(cmd.Cmd):
         """Returns the current market data about bitcoins."""
         print 'Market Data: '
 
-    def do_EOF(self, arg):
-        return True
-
     def do_quit(self, arg):
+        """Quit the trading system."""
         return True
 
     """Shortcut for quitting the program"""
